@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS odetails (
+  ono INT(11) NOT NULL,
+  pno INT(11) NOT NULL,
+  quantity INT(11) NOT NULL,
+  price DECIMAL(10, 2) NOT NULL,
+  PRIMARY KEY (ono, pno),
+  FOREIGN KEY (ono) REFERENCES orders(ono) ON DELETE CASCADE,
+  FOREIGN KEY (pno) REFERENCES products(pno) ON DELETE CASCADE
+); 

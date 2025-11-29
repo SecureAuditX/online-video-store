@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS customers (
+  customer_id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  street VARCHAR(255) NOT NULL,
+  city VARCHAR(100) NOT NULL,
+  state VARCHAR(100) NOT NULL,
+  zip VARCHAR(20) NOT NULL,
+  phone VARCHAR(15) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  address TEXT,
+  PRIMARY KEY (customer_id)
+);
