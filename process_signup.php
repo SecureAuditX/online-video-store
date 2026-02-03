@@ -3,11 +3,11 @@
 session_start();
 
 // Database connection parameters
-$servername = "localhost";
-$username = "root"; // Replace with your database username
-$password = "SECRET"; // Replace with your database password
+$servername = "HOST";
+$username = "USERNAME"; 
+$password = "PASSWORD"; 
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, $port);

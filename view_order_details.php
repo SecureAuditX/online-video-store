@@ -10,11 +10,11 @@ $customer_id = $_SESSION['customer_id'];
 $ono = (int)$_GET['ono'];
 
 // Database connection
-$servername = "localhost";
-$username = "root";
-$password = "SECRET";
+$servername = "HOST";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 if ($conn->connect_error) {

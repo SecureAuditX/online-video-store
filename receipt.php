@@ -9,11 +9,11 @@ if (!isset($_GET['ono'])) {
 
 $ono = (int)$_GET['ono'];
 
-$servername = "localhost";
-$username = "root";
-$password = "SECRET";
+$servername = "HOST";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, $port);

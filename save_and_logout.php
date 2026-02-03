@@ -8,8 +8,7 @@ if (!isset($_SESSION['customer_id'])) {
 
 $customer_id = $_SESSION['customer_id'];
 
-// ✅ Do nothing (cart remains in DB)
-// Just logout
+
 session_unset();
 session_destroy();
 

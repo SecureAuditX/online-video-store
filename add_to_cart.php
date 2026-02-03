@@ -29,7 +29,7 @@ if ($quantity <= 0) {
 }
 
 // DB connection
-$conn = new mysqli("localhost", "root", "SECRET", "shoppingline", 3306);
+$conn = new mysqli("HOST", "USERNAME", "PASSWORD", "shoppingline", "PORT");
 if ($conn->connect_error) {
     header("Location: search_products.php?status=error&message=Database_connection_failed");
     exit();

@@ -255,11 +255,11 @@ if (isset($_GET['status'])) {
         <?php
         if (isset($_GET['keyword'])) {
             // Database connection parameters
-            $servername = "localhost";
-            $username = "root";
-            $password = "zxcvbnm";
+            $servername = "HOST";
+            $username = "USERNAME";
+            $password = "PASSWORD";
             $dbname = "shoppingline";
-            $port = 3306;
+            $port = "PORT";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname, $port);
