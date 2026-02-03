@@ -8,11 +8,11 @@ if (!isset($_SESSION['customer_id'])) {
 
 $customer_id = $_SESSION['customer_id'];
 
-$servername = "localhost";
-$username = "root";
-$password = "SECRET";
+$servername = "HOST";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);

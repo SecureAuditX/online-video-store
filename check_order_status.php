@@ -5,11 +5,11 @@ if (!isset($_SESSION['customer_id'])) {
     die("You must be logged in to view your order status.");
 }
 
-$servername = "localhost";
-$username = "root";
-$password = "SECRET";
+$servername = "HOST";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 

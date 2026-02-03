@@ -17,11 +17,11 @@ $customer_id = $_SESSION['customer_id'];
 $dvd_id = (int)$_POST['dvd_id'];
 
 // Database connection details
-$servername = "localhost";
-$username = "root";
-$password = "SECRET";
+$servername = "HOST";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "shoppingline";
-$port = 3306;
+$port = "PORT";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 if ($conn->connect_error) {
