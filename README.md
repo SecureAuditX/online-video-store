@@ -1,6 +1,6 @@
 # 🎬 Web Shopping Application System - DVD Store
 <p align="center">
-  <img src="./Dashboard.png" alt="Dashbaord Banner" />
+  <img src="./Heading.png" alt="Dashbaord Banner" />
 </p>
 
 ![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat-square&logo=php)
