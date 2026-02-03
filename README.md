@@ -1,4 +1,7 @@
 # 🎬 Web Shopping Application System - DVD Store
+<p align="center">
+  <img src="./Dashboard.png" alt="Dashbaord Banner" />
+</p>
 
 ![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat-square&logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=flat-square&logo=mysql)
@@ -109,11 +112,11 @@ mysql -u root -p shoppingline < sql/insertion.sql
 
 Update database credentials in all PHP files:
 ```php
-$servername = "localhost";
-$username = "root";           // Your MySQL username
+$servername = "";
+$username = "";           // Your MySQL username
 $password = "SECRET";         // Your MySQL password
 $dbname = "shoppingline";
-$port = 3306;
+$port = "";
 ```
 
 Files to update:
